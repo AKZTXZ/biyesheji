@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+
+  // 调整导航栏宽度
+  .el-aside {
+    width: 60px !important;
+
+    .el-menu-item span {
+      display: none;
+    }
+  }
+
+  // 表格响应式处理
+  .el-table {
+
+    th,
+    td {
+      padding: 8px 5px;
+
+      &:nth-child(3),
+      &:nth-child(5) {
+        display: none;
+      }
+    }
+  }
+
+  // 记账按钮尺寸优化
+  .float-button {
+    right: 15px !important;
+    bottom: 15px !important;
+    width: 50px !important;
+    height: 50px !important;
+
+    span {
+      display: none;
+    }
+
+    .el-icon {
+      margin-right: 0 !important;
+    }
+  }
+}
